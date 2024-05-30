@@ -1,0 +1,37 @@
+regolith.look.path: /usr/share/regolith-look/i3-default
+
+Xft.antialias:	2
+
+gnome.terminal.font:		DejaVuSansMono Nerd Font 11
+gtk.document_font_name:		DejaVuSansMono Nerd Font 11
+gtk.font_name:			DejaVuSansMono Nerd Font 11
+gtk.monospace_font_name:	DejaVuSansMono Nerd Font 11
+i3xrocks.value.font:		DejaVuSansMono Nerd Font 11
+
+regolith.lockscreen.wallpaper.file:	/usr/share/backgrounds/background_silver.png
+regolith.wallpaper.file:		/usr/share/backgrounds/background_gold.png
+
+wm.window.border.size: 1
+
+!gold
+!E7A947
+!orange
+!F6661E
+!silver
+!BEB7AE
+!contrast blue
+!1EAEF6
+
+wm.bar.workspace.active.background.color:	#e7a947
+wm.bar.workspace.active.border.color:		#f6661e
+wm.bar.workspace.focused.background.color:	#e7a947
+wm.bar.workspace.focused.border.color:		#f6661e
+wm.bar.workspace.inactive.background.color:	#beb7ae
+
+wm.client.focused.color.child_border:		#e7a947
+
+gnome.terminal.color1:	#e7a947
+gnome.terminal.color2:	#f6661e
+gnome.terminal.color3:	#beb7ae
+gnome.terminal.color4:	#1eaef6
+

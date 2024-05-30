@@ -2,7 +2,19 @@
 
 ## Contents
 
-...
+* Xresources
+
+TODO:
+
+* bashrc
+* bash_aliases
+* neovim stuff
+
+From ~/workspace:
+
+```
+ln -s ~/workspace/dotfiles/Xresources ~/.config/regolith3/
+```
 
 ## Software
 
@@ -16,12 +28,12 @@
 ```sh
 # set some global git config
 git config --global user.name "Philip Castiglione"
-git config --global user.email <email>
+git config --global user.email philipcastiglione@gmail.com
 git config --global core.editor nvim
 git config --global init.defaultBranch main
 
 # add ssh key, add it to the agent, cat it to be able to copy-paste in a bit
-ssh-keygen -t ed25519 -C "<email>"
+ssh-keygen -t ed25519 -C "philipcastiglione@gmail.com"
 
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
@@ -30,6 +42,7 @@ cat ~/.ssh/id_ed25519.pub
 # generate gpg key
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format=long
+# grab the id of the key and use it for <key_id> below
 gpg --armor --export <key_id>
 
 # tell git to use the gpg key to sign all commits by default:
