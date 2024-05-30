@@ -3,17 +3,24 @@
 ## Contents
 
 * Xresources
+* bashrc
+* bash_aliases
 
 TODO:
 
-* bashrc
-* bash_aliases
-* neovim stuff
+* neovim config
 
-From ~/workspace:
+Clone this repo into ~/workspace.
+
+Then:
 
 ```
+ln -s ~/workspace/dotfiles/.bashrc ~/
+
+ln -s ~/workspace/dotfiles/.bash_aliases ~/
+
 ln -s ~/workspace/dotfiles/Xresources ~/.config/regolith3/
+regolith-look refresh
 ```
 
 ## Software
