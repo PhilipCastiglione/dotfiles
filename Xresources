@@ -11,6 +11,8 @@ i3xrocks.value.font:		DejaVuSansMono Nerd Font 11
 regolith.lockscreen.wallpaper.file:	/usr/share/backgrounds/background_silver.png
 regolith.wallpaper.file:		/usr/share/backgrounds/background_gold.png
 
+gnome.terminal.audible-bell: true
+
 wm.window.border.size: 1
 
 !gold
@@ -35,3 +37,5 @@ gnome.terminal.color2:	#f6661e
 gnome.terminal.color3:	#beb7ae
 gnome.terminal.color4:	#1eaef6
 
+gnome.terminal.background-transparency-percent:	15
+gnome.terminal.use-transparent-background:	true
