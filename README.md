@@ -5,6 +5,7 @@
 * Xresources
 * bashrc
 * bash_aliases
+* ilia.css
 
 TODO:
 
@@ -12,12 +13,14 @@ TODO:
 
 Clone this repo into ~/workspace.
 
-Then:
+Then (first check to ensure these files don't already exist, remove them if they do):
 
 ```
 ln -s ~/workspace/dotfiles/.bashrc ~/
 
 ln -s ~/workspace/dotfiles/.bash_aliases ~/
+
+sudo ln -s ~/workspace/dotfiles/ilia.css /usr/share/regolith-look/i3-default/
 
 ln -s ~/workspace/dotfiles/Xresources ~/.config/regolith3/
 regolith-look refresh
