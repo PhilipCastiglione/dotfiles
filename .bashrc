@@ -116,10 +116,17 @@ fi
 . "$HOME/.asdf/completions/asdf.bash"
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/opt/piper"
 
 # add opt folder to application launcher
 export XDG_DATA_DIR="$XDG_DATA_DIR:/opt"
 
 # adds gpg key to ...
 export GPG_TTY=$(tty)
+
+
+. "$HOME/.cargo/env"
+
+# remove if this hack is no longer required
+# xset -dpms
 
